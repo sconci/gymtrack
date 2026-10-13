@@ -16,7 +16,7 @@ No necesito una app cara y pesada llena de features de nutrición y red social: 
 
 ## Objetivos
 
-Que cargar la sesión de hoy sea **más rápido y cómodo que el Excel**, y que en cualquier momento pueda ver **el historial de cada ejercicio** (peso × reps a lo largo del tiempo) para decidir la progresión. Que cada persona use su cuenta con sus datos privados, sin ver ni afectar los de otros. Ganar: **dejar el Excel** y no perder nunca más el registro de "cuánto levanté la última vez".
+Que cargar la sesión de hoy sea **más rápido y cómodo que el Excel**, y que en cualquier momento pueda ver **el historial de cada ejercicio** (peso y reps a lo largo del tiempo) para decidir la progresión. Que cada persona use su cuenta con sus datos privados, sin ver ni afectar los de otros. Ganar: **dejar el Excel** y no perder nunca más el registro de "cuánto levanté la última vez".
 
 ## Requerimientos Funcionales
 
@@ -32,7 +32,7 @@ Que cargar la sesión de hoy sea **más rápido y cómodo que el Excel**, y que 
 - RF-10: El usuario debe poder eliminar una sesión propia.
 - RF-11: El sistema debe mostrar el historial de sesiones del usuario ordenado por fecha (más reciente primero) y paginado.
 - RF-12: El sistema debe permitir ver el detalle de una sesión (ejercicios, series, peso y reps).
-- RF-13: Al agregar un ejercicio a una sesión, el sistema debe mostrar el último registro previo de ese ejercicio para ese usuario (peso × reps y fecha) como referencia; si no hay registro previo, debe indicarlo.
+- RF-13: Al agregar un ejercicio a una sesión, el sistema debe mostrar el último registro previo de ese ejercicio para ese usuario (peso, reps y fecha) como referencia; si no hay registro previo, debe indicarlo.
 
 ## Requerimientos No Funcionales
 
